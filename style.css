@@ -1,0 +1,45 @@
+body{
+    background-image: url(backimg.jpg) ;
+    height: 100%;
+    background-size: cover;
+ 
+    
+}
+fieldset{
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    
+    text-align: justify;
+    margin: auto;
+    margin-bottom:  50px;
+    padding: 30px;
+    border-radius: 8px;
+      box-shadow: 0 4px 8px 0 rgba(149, 59, 223, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Barlow', sans-serif;
+      padding: 40px;
+}
+
+.button{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
+button{
+    border: none;
+    width: 120px;
+    height: 35px ;
+    outline: none;
+    background-color: rgb(228, 197, 228);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px 0 rgba(149, 59, 223, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover{
+    background-color: rgb(255, 213, 255);
+}
+button:focus{
+    background-color: rgb(247, 174, 247);
+}
